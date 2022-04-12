@@ -45,7 +45,7 @@ import { ReactSearch } from "unthinkable-react-search"
 |     `searchIconVariant`        |     `String`    |   Color of a Search Bar Icon `default: secondary`.|
 |     `dropDownVariant`          |     `String`    |   Color of a Drop-Down menu. `default: primary`|
 |     `paginateBtnVariant`       |     `String`    |   Color of pagination buttons. `default: outline-primary`|
-|     `dateTimeFormat`           |     `String`    |   Format of date & time (if present). `default: MMMM Do YYYY, h:mm:ss a`|
+|     `dateTimeFormat`           |     `String`    |   Format of date & time (if present). `default: MMMM DD YYYY, h:mm:ss a`|
 
 * endPoint - **API Format**
 > e.g.
