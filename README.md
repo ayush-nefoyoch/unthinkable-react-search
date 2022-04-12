@@ -12,6 +12,7 @@
 
 > Now, in the project in which you want to use this package -
 - run `npm link unthinkable-react-search` 
+- run `npm start`
 
 ## Usage
 ```JSX
