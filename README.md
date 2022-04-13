@@ -8,7 +8,7 @@
 1. Clone the repository - **[Clone Repo from here](https://github.com/nefoyoch/unthinkable-react-search)**
 2. run `npm i`
 3. run `npm link`
-4. run `npm link ../path/to/your/project/node_modules/react --legacy-peer-deps`
+4. run `npm link ../path/to/your/project/node_modules/react`
 
 > Now, in the project in which you want to use this package -
 - run `npm link unthinkable-react-search` 
