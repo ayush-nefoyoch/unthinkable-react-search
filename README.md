@@ -5,7 +5,7 @@
 
 
 ## Installation 
-1. Clone the repository - **[Clone Repo from here](https://github.com/nefoyoch/unthinkable-react-search)**
+1. Clone the repository - **[Download Code from here](https://drive.google.com/drive/folders/1Q6wJRLb5avBjvCdXOI878Fy3L_9b_QBN?usp=sharing)**
 2. run `npm i`
 3. run `npm link`
 4. run `npm link ../path/to/your/project/node_modules/react`
