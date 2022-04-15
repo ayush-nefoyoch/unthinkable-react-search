@@ -150,7 +150,7 @@ import { ReactSearch } from "unthinkable-react-search"
       searchIconVariant="success"
       dropDownVariant="success"
       paginateBtnVariant="outline-success"
-      dateTimeFormat="MMMM Do YYYY"
+      dateTimeFormat="MMMM DD YYYY"
   />
 ```
    > *Now it looks like* - 
