@@ -21,10 +21,10 @@ import { ReactSearch } from "unthinkable-react-search"
 > *Get the default styles by passing data as props* - 
    ```JSX
    <ReactSearch
-      endpoint={<API>
+      endPoint={<API>}
       tableType={<TABLETYPE>}
       isSearchResults={true}
-      isPagination={true}}
+      isPagination={true}
    />
    ```
 ![Home](assets/images/Home.png)
