@@ -39,7 +39,7 @@ import { ReactSearch } from "unthinkable-react-search"
 |     `isSearchResults`          |     `Boolean`   | **Required**. To display Search Results. `Pass value as false if not required.`|
 |     `isPagination`             |     `Boolean`   | **Required**. To get functionalities of pagination. `Pass value as false if not required.`| 
 |     `defaultPageSize`          |     `Number`    |   Number of rows to be displayed. `default: 5`|
-|     `pageSizeOptions`          |     `Array`     |   Items to be displayed on dropdown menu `default: [5, 10, 15, 20]`, if not required do not write this prop.         |
+|     `pageSizeOptions`          |     `Array`     |   Items to be displayed on dropdown menu `e.g.: [5, 10, 15, 20]`, if not required do not write this prop.         |
 |     `searchPlaceholderText`    |     `String`    |   Text to be displayed on Search Bar. `default: Search...`|
 |     `omittedHeaders`           |     `Array`     |   Headers which you do not want to be displayed.|
 |     `tableStyling`             |     `Object`    |   Styles of the table to be displayed.|
