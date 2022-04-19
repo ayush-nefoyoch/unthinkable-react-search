@@ -13,7 +13,7 @@
 > Now, in the project in which you want to use this package -
 - create a react app `npx create-react-app <app_name>`
 - run `npm link unthinkable-react-search` 
-- run `npm start`
+- Now your app is ready to use this package.
 
 ## Usage
 
