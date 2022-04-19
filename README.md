@@ -25,6 +25,7 @@ import { ReactSearch } from "unthinkable-react-search"
       tableType={<TABLETYPE>}
       isSearchResults={true}
       isPagination={true}
+      pageSizeOptions={<PAGE_SIZE_OPTIONS>}
    />
    ```
 ![Home](assets/images/Home.png)
