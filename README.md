@@ -16,6 +16,8 @@
 - run `npm start`
 
 ## Usage
+
+> Open the file in which you want to use pagination and searching (*for e.g. App.js*) 
 ```JSX
 import { ReactSearch } from "unthinkable-react-search"
 ```
