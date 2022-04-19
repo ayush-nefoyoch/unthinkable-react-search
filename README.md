@@ -10,7 +10,7 @@
 3. run `npm link`
 4. run `npm link ../path/to/your/project/node_modules/react`
 
-> Now, in the project in which you want to use this package -
+> Now, in the project in which you want to use this package, use your existing react-app or create a new one by following command -
 - create a react app `npx create-react-app <app_name>`
 - run `npm link unthinkable-react-search` 
 - Now your app is ready to use this package.
