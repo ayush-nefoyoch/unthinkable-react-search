@@ -31,7 +31,7 @@ import { ReactSearch } from "unthinkable-react-search"
       pageSizeOptions={<PAGE_SIZE_OPTIONS>}
    />
    ```
-![Home](assets/images/Home.png)
+![Home](assets/images/Default.png)
 
 #### Customize the Package with Props
 
