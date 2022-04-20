@@ -138,12 +138,14 @@ import { ReactSearch } from "unthinkable-react-search"
    
    ```JSX
           wordWrap={[
-        {
-          header: "email",
-          ellipsis: true,
-        },
-        ]}
+            {
+               header: "email",
+               ellipsis: true,
+            },
+          ]}
         ```
+        
+        > pass the name of the `header` and `ellipsis` true, to aplly functionality of tooltip on table cells.
         
 
 
@@ -160,6 +162,12 @@ import { ReactSearch } from "unthinkable-react-search"
       isPagination={true}
       searchPlaceholderText="Search Me"
       omittedHeaders={["currency", "created_at"]}
+      wordWrap={[
+        {
+          header: "email",
+          ellipsis: true,
+        },
+      ]}
       tableStyling={{
         size: "sm",
         variant: "dark",
