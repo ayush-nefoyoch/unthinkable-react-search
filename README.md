@@ -183,7 +183,7 @@ import { ReactSearch } from "unthinkable-react-search"
 ```
    > *Now it looks like* - 
 
-![Pagination and Searching Home Page](/assets/images/WithProps.png)
+![Pagination and Searching Home Page](/assets/images/Customize.png)
 
 
 ## Credits 
