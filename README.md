@@ -133,6 +133,21 @@ import { ReactSearch } from "unthinkable-react-search"
 
    > `variant: "dark"/""` `default: ""` 
 
+* *wordWrap*:
+   > e.g.
+   
+   ```JSX
+          wordWrap={[
+        {
+          header: "email",
+          ellipsis: true,
+        },
+        ]}
+        ```
+        
+
+
+
 > *Passing all props in a component* - `e.g.`
 
 ```JSX
