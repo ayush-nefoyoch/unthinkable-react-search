@@ -45,11 +45,7 @@ import { ReactSearch } from "unthinkable-react-search"
 |     `pageSizeOptions`          |     `Array`     |   Items to be displayed on dropdown menu `e.g. [5, 10, 15, 20]`, if not required do not write this prop.         |
 |     `searchPlaceholderText`    |     `String`    |   Text to be displayed on Search Bar. `default: Search...`|
 |     `omittedHeaders`           |     `Array`     |   Headers which you do not want to be displayed.|
-|     `wordWrap`                 |     `Array of Objects`    |   Pass the headers and ellipsis property `true` if you want to use tooltip on table cells on hover `e.g.   wordWrap=[
-        {
-          header: "email",
-          ellipsis: true,
-        },]`|
+|     `wordWrap`                 |     `Array of Objects`    |   Pass the headers and ellipsis property `true` if you want to use tooltip on table cells on hover `|
 |     `tableStyling`             |     `Object`    |   Styles of the table to be displayed.|
 |     `searchIconVariant`        |     `String`    |   Color of a Search Bar Icon `default: secondary`.|
 |     `dropDownVariant`          |     `String`    |   Color of a Drop-Down menu. `default: primary`|
