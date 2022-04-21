@@ -29,7 +29,7 @@
 import { ReactSearch } from "unthinkable-react-search"
 ```
 
-> _Get the default styles by passing data as props_ -
+> _Get the default styles by passing data as props_ and run `npm start` to run your react application-
 
 ```JSX
 <ReactSearch
