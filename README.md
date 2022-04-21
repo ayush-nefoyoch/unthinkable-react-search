@@ -1,59 +1,70 @@
 # unthinkable-react-search
+
 ### A ReactJS component to render a searching and pagination.
+
 > By using this component, get all the functionalities which are related to pagination and searching by passing a small amount of data.
->> You can get the default styling or you can add the styling which you want.
+>
+> > You can get the default styling or you can add the styling which you want.
 
+## Installation
 
-## Installation 
+> **NOTE** - _Required React Version 18.0.0_.
+
 1. Clone the repository - **[Clone Repo from here](https://github.com/nefoyoch/unthinkable-react-search/)**
 2. run `npm i`
 3. run `npm link`
 4. run `npm link ../path/to/your/project/node_modules/react`
 
 > Now, move into the project in which you want to use this package, use your existing react-app or create a new one by following command -
+
 - create a react app `npx create-react-app <app_name>`
-- run `npm link unthinkable-react-search` 
+- run `npm link unthinkable-react-search`
 - Now your app is ready to use this package.
 
 ## Usage
 
-> Open the file in which you want to use pagination and searching (*for e.g. App.js*) 
+> Open the file in which you want to use pagination and searching (_for e.g. App.js_)
+
 ```JSX
 import { ReactSearch } from "unthinkable-react-search"
 ```
-> *Get the default styles by passing data as props* - 
-   ```JSX
-   <ReactSearch
-      endPoint={<API>}
-      tableType={<TABLETYPE>}
-      isSearchResults={true}
-      isPagination={true}
-      pageSizeOptions={<PAGE_SIZE_OPTIONS>}
-   />
-   ```
+
+> _Get the default styles by passing data as props_ -
+
+```JSX
+<ReactSearch
+   endPoint={<API>}
+   tableType={<TABLETYPE>}
+   isSearchResults={true}
+   isPagination={true}
+   pageSizeOptions={<PAGE_SIZE_OPTIONS>}
+/>
+```
+
 ![Home](assets/images/Default.png)
 
 #### Customize the Package with Props
 
-|      Name                      |             Type       | Description                                            |
-| -------------------------------| ----------------| --------------------------------------------------------------                                  
-|     `endPoint`                 |     `String`    | **Required**. API for fetching data which is to be displayed.  |
-|     `tableType`                |     `String`    | **Required**. Type of the table `e.g. users/students`          |
-|     `isSearchResults`          |     `Boolean`   | **Required**. To display Search Results. `Pass value as false if not required.`|
-|     `isPagination`             |     `Boolean`   | **Required**. To get functionalities of pagination. `Pass value as false if not required.`| 
-|     `defaultPageSize`          |     `Number`    |   Number of rows to be displayed. `default: 5`|
-|     `pageSizeOptions`          |     `Array`     |   Items to be displayed on dropdown menu `e.g. [5, 10, 15, 20]`, if not required do not write this prop.         |
-|     `searchPlaceholderText`    |     `String`    |   Text to be displayed on Search Bar. `default: Search...`|
-|     `omittedHeaders`           |     `Array`     |   Headers which you do not want to be displayed.|
-|     `wordWrap`                 |     `Array of Objects`    |   Pass the headers and ellipsis property `true`, if you want to use tooltip on table cells on hover. `|
-|     `tableStyling`             |     `Object`    |   Styles of the table to be displayed.|
-|     `searchIconVariant`        |     `String`    |   Color of a Search Bar Icon `default: secondary`.|
-|     `dropDownVariant`          |     `String`    |   Color of a Drop-Down menu. `default: primary`|
-|     `paginateBtnVariant`       |     `String`    |   Color of pagination buttons. `default: outline-primary`|
-|     `dateTimeFormat`           |     `String`    |   Format of date & time (if present). `default: MMMM DD YYYY, h:mm:ss a`|
+| Name                    | Type               | Description                                                                                            |
+| ----------------------- | ------------------ | ------------------------------------------------------------------------------------------------------ |
+| `endPoint`              | `String`           | **Required**. API for fetching data which is to be displayed.                                          |
+| `tableType`             | `String`           | **Required**. Type of the table `e.g. users/students`                                                  |
+| `isSearchResults`       | `Boolean`          | **Required**. To display Search Results. `Pass value as false if not required.`                        |
+| `isPagination`          | `Boolean`          | **Required**. To get functionalities of pagination. `Pass value as false if not required.`             |
+| `defaultPageSize`       | `Number`           | Number of rows to be displayed. `default: 5`                                                           |
+| `pageSizeOptions`       | `Array`            | Items to be displayed on dropdown menu `e.g. [5, 10, 15, 20]`, if not required do not write this prop. |
+| `searchPlaceholderText` | `String`           | Text to be displayed on Search Bar. `default: Search...`                                               |
+| `omittedHeaders`        | `Array`            | Headers which you do not want to be displayed.                                                         |
+| `wordWrap`              | `Array of Objects` | Pass the headers and ellipsis property `true`, if you want to use tooltip on table cells on hover. `   |
+| `tableStyling`          | `Object`           | Styles of the table to be displayed.                                                                   |
+| `searchIconVariant`     | `String`           | Color of a Search Bar Icon `default: secondary`.                                                       |
+| `dropDownVariant`       | `String`           | Color of a Drop-Down menu. `default: primary`                                                          |
+| `paginateBtnVariant`    | `String`           | Color of pagination buttons. `default: outline-primary`                                                |
+| `dateTimeFormat`        | `String`           | Format of date & time (if present). `default: MMMM DD YYYY, h:mm:ss a`                                 |
 
-* endPoint - **API Format**
-> e.g.
+- endPoint - **API Format**
+  > e.g.
+
 ```JSON
 {
    "users":{
@@ -113,44 +124,40 @@ import { ReactSearch } from "unthinkable-react-search"
    }
 }
 ```
-> **NOTE** -  *Refer to React Bootstrap for styling purpose*.
-* *tableStyling*: 
-   > e.g. 
-   
-   
-   ```JSX
-            tableStyling={{
-               size: "",
-               variant: "",
-               bordered: <boolean>,
-               striped: <boolean>,
-               hover: <boolean>,
-            }}
-    ```
 
-   > `size: "md"/"sm"` `default: ""`
+> **NOTE** - _Refer to React Bootstrap for styling purpose_.
 
+- _tableStyling_:
 
-   > `variant: "dark"/""` `default: ""` 
+  > e.g.
 
-* *wordWrap*:
-   > e.g.
-   
-   ```JSX
-          wordWrap={[
-            {
-               header: "email",
-               ellipsis: true,
-            },
-          ]}
-   ```
-        
-   > pass the name of the `header` and `ellipsis` true, to aplly functionality of tooltip on table cells.
-        
+  ```JSX
+           tableStyling={{
+              size: "",
+              variant: "",
+              bordered: <boolean>,
+              striped: <boolean>,
+              hover: <boolean>,
+           }}
+  ```
 
+  > `size: "md"/"sm"` `default: ""`
 
+  > `variant: "dark"/""` `default: ""`
 
-> *Passing all props in a component* - `e.g.`
+- _wordWrap_:
+  > e.g.
+  ```JSX
+         wordWrap={[
+           {
+              header: "email",
+              ellipsis: true,
+           },
+         ]}
+  ```
+  > pass the name of the `header` and `ellipsis` true, to aplly functionality of tooltip on table cells.
+
+> _Passing all props in a component_ - `e.g.`
 
 ```JSX
   <ReactSearch
@@ -181,19 +188,18 @@ import { ReactSearch } from "unthinkable-react-search"
       dateTimeFormat="MMMM DD YYYY"
   />
 ```
-   > *Now it looks like* - 
+
+> _Now it looks like_ -
 
 ![Pagination and Searching Home Page](/assets/images/Customize.png)
 
+## Credits
 
-## Credits 
-   #### Collaborators
+#### Collaborators
+
       Neelkanth Kaushik - `<gihub profile link>`
       Tanveer Kaur - `<gihub profile link>`
-      
-      
+
+
+
 ## License
- 
- 
-
-
