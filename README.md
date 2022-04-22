@@ -213,8 +213,6 @@ import { ReactSearch } from "unthinkable-react-search"
 
       Neelkanth Kaushik - <gihub profile link>
       Tanveer Kaur - https://github.com/tanveerkaur25
-      1. Clone the repository - **[Clone Repo from here](https://github.com/nefoyoch/unthinkable-react-search/)**
-
 
 
 ## License
