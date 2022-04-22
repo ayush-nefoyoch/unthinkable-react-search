@@ -6,14 +6,21 @@
 >
 > > You can get the default styling or you can add the styling which you want.
 
+## Requirements
+
+1. Required node version `>=17.0.0`
+2. Required npm verison `>=8.0.0`
+3. Required react version `18.0.0`
+
 ## Installation
 
-> **NOTE** - _Required React Version 18.0.0_.
-
 1. Clone the repository - **[Clone Repo from here](https://github.com/nefoyoch/unthinkable-react-search/)**
-2. run `npm i`
-3. run `npm link`
-4. run `npm link ../path/to/your/project/node_modules/react`
+3. run `npm i`
+4. Build -
+         a. for windows user - run `npm run build:win`
+         b. for linux user - run `npm run build:linux`
+6. run `npm link`
+7. run `npm link ../path/to/your/project/node_modules/react`
 
 > Now, move into the project in which you want to use this package, use your existing react-app or create a new one by following command -
 
