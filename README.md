@@ -23,11 +23,11 @@
          b. for linux user - run `npm run build:linux`
          
          
- **NOTE** - Folder with name `dist` is created in root directory.
+      **NOTE** - Folder with name `dist` is created in root directory.
  
  
-6. run `npm link`
-7. run `npm link ../path/to/your/project/node_modules/react`
+5. run `npm link`
+6. run `npm link ../path/to/your/project/node_modules/react`
 
 > Now, move into the project in which you want to use this package, use your existing react-app or create a new one by following command -
 
