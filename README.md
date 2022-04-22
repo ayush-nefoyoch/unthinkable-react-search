@@ -35,6 +35,8 @@
 - run `npm link unthinkable-react-search`
 - Now your app is ready to use this package.
 
+![Installation](assets/images/react-search-installation.png)
+
 ## Usage
 
 > Open the file in which you want to use pagination and searching (_for e.g. App.js_)
