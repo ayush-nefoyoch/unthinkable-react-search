@@ -36,7 +36,7 @@
 - Now your app is ready to use this package.
 
 
-![Installation](assets/images/react-search installation.gif)
+**[Installation](https://github.com/ayush-nefoyoch/unthinkable-react-search/blob/main/assets/images/react-search%20installation.gif)**
 
 
 
