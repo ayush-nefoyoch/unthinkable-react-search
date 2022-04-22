@@ -35,7 +35,10 @@
 - run `npm link unthinkable-react-search`
 - Now your app is ready to use this package.
 
+
 ![Installation](assets/images/react-search installation.gif)
+
+
 
 ## Usage
 
