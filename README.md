@@ -37,7 +37,7 @@
 
 
 **[Installation](https://github.com/ayush-nefoyoch/unthinkable-react-search/blob/main/assets/images/react-search%20installation.gif)**
-<p><img align="right" alt="installation" src="https://github.com/ayush-nefoyoch/unthinkable-react-search/blob/main/assets/images/react-search%20installation.gif" width="500" height="320"/></p>
+<p><img align="right" alt="installation" src="https://github.com/ayush-nefoyoch/unthinkable-react-search/blob/main/assets/images/react-search%20installation.gif"/></p>
 
 
 
