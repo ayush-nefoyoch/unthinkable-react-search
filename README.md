@@ -212,7 +212,7 @@ import { ReactSearch } from "unthinkable-react-search"
 #### Collaborators
 
       Neelkanth Kaushik - `<gihub profile link>`
-      Tanveer Kaur - **https://github.com/tanveerkaur25**
+      Tanveer Kaur - https://github.com/tanveerkaur25
 
 
 
