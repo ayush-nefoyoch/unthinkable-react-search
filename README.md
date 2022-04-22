@@ -209,10 +209,7 @@ import { ReactSearch } from "unthinkable-react-search"
 
 ## Credits
 
-#### Collaborators
+      - Neelkanth Kaushik (neelkanth.kaushik@daffodilsw.com) - Associate Manager - Software Engineering
+      - Taneer Kaur (tanveer.kaur@unthinkable.co) - Sr. Associate - Software Engineering
+      - Ayush Gupta (ayush@unthinkable.co) - Intern
 
-      Neelkanth Kaushik - <gihub profile link>
-      Tanveer Kaur - https://github.com/tanveerkaur25
-
-
-## License
