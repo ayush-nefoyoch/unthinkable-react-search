@@ -36,10 +36,6 @@
 - Now your app is ready to use this package.
 
 
-<p><img align="right" alt="installation" src="https://github.com/ayush-nefoyoch/unthinkable-react-search/blob/main/assets/images/react-search%20installation.gi" width="" height=""/></p>
-
-
-
 ## Usage
 
 > Open the file in which you want to use pagination and searching (_for e.g. App.js_)
