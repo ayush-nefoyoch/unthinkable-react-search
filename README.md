@@ -59,8 +59,7 @@ import { ReactSearch } from "unthinkable-react-search"
    pageSizeOptions={<PAGE_SIZE_OPTIONS>}
 />
 ```
-
-![Home](assets/images/Default.png)
+<img alt="default-table" src="https://github.com/ayush-nefoyoch/unthinkable-react-search/blob/main/assets/images/Default.png"/>
 
 #### Customize the Package with Props
 
@@ -210,7 +209,7 @@ import { ReactSearch } from "unthinkable-react-search"
 
 > _Now it looks like_ -
 
-<img align="right" alt="customized-table" src="https://github.com/ayush-nefoyoch/unthinkable-react-search/blob/main/assets/images/Customize.png"/>
+<img alt="customized-table" src="https://github.com/ayush-nefoyoch/unthinkable-react-search/blob/main/assets/images/Customize.png"/>
 
 ## Credits
 
