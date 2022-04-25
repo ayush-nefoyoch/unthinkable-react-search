@@ -210,9 +210,7 @@ import { ReactSearch } from "unthinkable-react-search"
 
 > _Now it looks like_ -
 
-![Pagination and Searching Home Page](/assets/images/Customize.pngv)
-<p><img align="right" alt="installation" src="https://github.com/ayush-nefoyoch/unthinkable-react-search/blob/main/assets/images/Customize.png" width="" height=""/></p>
-https://github.com/ayush-nefoyoch/unthinkable-react-search/blob/main/assets/images/Customize.png
+<img align="right" alt="customized-table" src="https://github.com/ayush-nefoyoch/unthinkable-react-search/blob/main/assets/images/Customize.png"/>
 
 ## Credits
 
